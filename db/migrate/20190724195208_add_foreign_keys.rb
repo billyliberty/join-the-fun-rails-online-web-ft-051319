@@ -4,4 +4,3 @@ class AddForeignKeys < ActiveRecord::Migration[5.0]
     add_column :rides, :taxi_id, :integer
   end
 end
-
